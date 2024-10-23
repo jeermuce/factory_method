@@ -4,6 +4,40 @@ Proyecto: Patrón de Diseño Método de Fábrica
 
 Este proyecto implementa el patrón de diseño "Método de Fábrica" en Rust. El objetivo es demostrar cómo se puede utilizar este patrón para crear objetos sin especificar la clase exacta del objeto que se creará. En este caso, el proyecto se centra en la creación de diferentes tipos de bebidas (Café y Té) mediante el uso de baristas (BaristaCafé y BaristaTé).
 
+# Compilar el program
+
+Requisitos:
+[Rust](https://www.rust-lang.org/tools/install])
+
+Navegar en la consola/terminal al directorio raiz del projecto y usar este comando.
+
+```shell
+cargo build --release
+```
+
+# Correr el programa
+
+doble click en `./executables/factory_method.exe` para windows
+
+o en la terminal
+linux
+
+```shell
+./factory_method
+```
+
+windows
+
+```shell
+./factory_method.exe
+```
+
+o, si se tiene rust instalado y se quiere informacion de depuracion
+
+```shell
+cargo run
+```
+
 ## Estructura del Código
 
 ### Paso 1: Definir la Interfaz del Producto
