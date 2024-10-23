@@ -118,7 +118,9 @@ fn main() {
         let bebida = barista.preparar_bebida();
         println!("{}", bebida.descripcion());
     }
-}```
+}
+```
+
 ## Retroalimentación
 
 ### Funcionalidad
